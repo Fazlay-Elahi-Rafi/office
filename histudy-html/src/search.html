@@ -1,0 +1,83 @@
+@@include('styles.html',{
+    "title": "Elements"
+})
+<body class="rbt-header-sticky">
+
+    @@include('header/package/header-style-10.html')
+
+    @@include('common/breadcrumb.html', {
+        "title": "Search",
+        "title2": "Search"
+    })
+
+    <div class="rbt-elements-area bg-color-white rbt-section-gap">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <span class="select-label d-block">Search Style 01</span>
+                    <div class="rbt-search-with-category">
+                        <div class="filter-select rbt-modern-select search-by-category">
+                            <select>
+                                <option>All Categories</option>
+                                <option>Education</option>
+                                <option>Course</option>
+                                <option>Art</option>
+                                <option>Web Design</option>
+                            </select>
+                        </div>
+                        <div class="search-field">
+                            <input type="text" placeholder="Search Course">
+                            <button class="rbt-round-btn serach-btn" type="submit"><i class="feather-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="filter-select rbt-modern-select search-by-category">
+                        <span class="select-label d-block">Short By</span>
+                        <select>
+                            <option>All Categories</option>
+                            <option>Education</option>
+                            <option>Course</option>
+                            <option>Art</option>
+                            <option>Web Design</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="rbt-elements-area bg-color-extra2 rbt-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <form action="#" class="rbt-search-style-1">
+                        <input type="text" placeholder="Search Courses">
+                        <button class="search-btn"><i class="feather-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rbt-elements-area bg-color-darker rbt-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <form action="#" class="rbt-search-style me-0">
+                        <input type="text" placeholder="Search Your Course..">
+                        <button type="submit" class="rbt-search-btn rbt-round-btn">
+                            <i class="feather-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+</body>
+</html>

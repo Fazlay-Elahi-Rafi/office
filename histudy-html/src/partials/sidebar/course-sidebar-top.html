@@ -1,0 +1,242 @@
+<!-- Start Widget Area  -->
+<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+    <div class="rbt-single-widget rbt-widget-categories has-show-more">
+        <div class="inner">
+            <h4 class="rbt-widget-title-2">Categories</h4>
+            <ul class="rbt-sidebar-list-wrapper categories-list-check has-show-more-inner-content">
+                <li class="rbt-check-group">
+                    <input id="cat-list-1" type="checkbox" name="cat-list-1">
+                    <label for="cat-list-1">Art &amp; Humanities <span class="rbt-lable count">15</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-2" type="checkbox" name="cat-list-2">
+                    <label for="cat-list-2">Web Design <span class="rbt-lable count">20</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-3" type="checkbox" name="cat-list-3">
+                    <label for="cat-list-3">Graphic Design <span class="rbt-lable count">10</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-4" type="checkbox" name="cat-list-4">
+                    <label for="cat-list-4">Art &amp; Humanities <span class="rbt-lable count">15</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-5" type="checkbox" name="cat-list-5">
+                    <label for="cat-list-5">Technology <span class="rbt-lable count">20</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-6" type="checkbox" name="cat-list-6">
+                    <label for="cat-list-6">Humanities Art <span class="rbt-lable count">25</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-7" type="checkbox" name="cat-list-7">
+                    <label for="cat-list-7">Management <span class="rbt-lable count">50</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-8" type="checkbox" name="cat-list-8">
+                    <label for="cat-list-8">Photoshop <span class="rbt-lable count">45</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-9" type="checkbox" name="cat-list-9">
+                    <label for="cat-list-9">Online Course <span class="rbt-lable count">45</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-10" type="checkbox" name="cat-list-10">
+                    <label for="cat-list-10">English Clud <span class="rbt-lable count">45</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-list-11" type="checkbox" name="cat-list-11">
+                    <label for="cat-list-11">Graphic Design <span class="rbt-lable count">45</span></label>
+                </li>
+            </ul>
+        </div>
+        <div class="rbt-show-more-btn">Show More</div>
+    </div>
+</div>
+<!-- End Widget Area  -->
+
+<!-- Start Widget Area  -->
+<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+    <div class="rbt-single-widget rbt-widget-rating">
+        <div class="inner">
+            <h4 class="rbt-widget-title-2">Ratings</h4>
+            <ul class="rbt-sidebar-list-wrapper rating-list-check">
+                <li class="rbt-check-group">
+                    <input id="cat-radio-1" type="radio" name="rbt-radio">
+                    <label for="cat-radio-1">
+                        <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span> 
+                        <span class="rbt-lable count">5</span>
+                    </label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-radio-2" type="radio" name="rbt-radio">
+                    <label for="cat-radio-2">
+                        <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                        </span> 
+                        <span class="rbt-lable count">4</span>
+                    </label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-radio-3" type="radio" name="rbt-radio">
+                    <label for="cat-radio-3">
+                        <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                        </span> 
+                        <span class="rbt-lable count">3</span>
+                    </label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="cat-radio-4" type="radio" name="rbt-radio">
+                    <label for="cat-radio-4">
+                        <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                        </span> 
+                        <span class="rbt-lable count">2</span>
+                    </label>
+                </li>
+
+                <li class="rbt-check-group">
+                    <input id="cat-radio-5" type="radio" name="rbt-radio">
+                    <label for="cat-radio-5">
+                        <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                            <i class="off fas fa-star"></i>
+                        </span> 
+                        <span class="rbt-lable count">1</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Widget Area  -->
+
+<!-- Start Widget Area  -->
+<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+    <div class="rbt-single-widget rbt-widget-instructor">
+        <div class="inner">
+            <h4 class="rbt-widget-title-2">Instructors</h4>
+            <ul class="rbt-sidebar-list-wrapper instructor-list-check">
+                <li class="rbt-check-group">
+                    <input id="ins-list-1" type="checkbox" name="ins-list-1">
+                    <label for="ins-list-1">Slaughter <span class="rbt-lable count">15</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="ins-list-2" type="checkbox" name="ins-list-2">
+                    <label for="ins-list-2">Patrick <span class="rbt-lable count">20</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="ins-list-3" type="checkbox" name="ins-list-3">
+                    <label for="ins-list-3">Angela <span class="rbt-lable count">10</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="ins-list-4" type="checkbox" name="ins-list-4">
+                    <label for="ins-list-4">Fatima Asrafy <span class="rbt-lable count">15</span></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Widget Area  -->
+
+<!-- Start Widget Area  -->
+<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+    <div class="rbt-single-widget rbt-widget-prices">
+        <div class="inner">
+            <h4 class="rbt-widget-title-2">Prices</h4>
+            <ul class="rbt-sidebar-list-wrapper prices-list-check">
+                <li class="rbt-check-group">
+                    <input id="prices-list-1" type="checkbox" name="prices-list-1">
+                    <label for="prices-list-1">All <span class="rbt-lable count">15</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="prices-list-2" type="checkbox" name="prices-list-2">
+                    <label for="prices-list-2">Free <span class="rbt-lable count">0</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="prices-list-3" type="checkbox" name="prices-list-3">
+                    <label for="prices-list-3">Paid <span class="rbt-lable count">10</span></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Widget Area  -->
+
+<!-- Start Widget Area  -->
+<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+    <div class="rbt-single-widget rbt-widget-lavels">
+        <div class="inner">
+            <h4 class="rbt-widget-title-2">Levels</h4>
+            <ul class="rbt-sidebar-list-wrapper lavels-list-check">
+                <li class="rbt-check-group">
+                    <input id="lavels-list-1" type="checkbox" name="lavels-list-1">
+                    <label for="lavels-list-1">All Levels<span class="rbt-lable count">15</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="lavels-list-2" type="checkbox" name="lavels-list-2">
+                    <label for="lavels-list-2">Beginner <span class="rbt-lable count">0</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="lavels-list-3" type="checkbox" name="lavels-list-3">
+                    <label for="lavels-list-3">Intermediate <span class="rbt-lable count">10</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="lavels-list-4" type="checkbox" name="lavels-list-4">
+                    <label for="lavels-list-4">Expert <span class="rbt-lable count">10</span></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Widget Area  -->
+
+<!-- Start Widget Area  -->
+<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+    <div class="rbt-single-widget rbt-widget-features">
+        <div class="inner">
+            <h4 class="rbt-widget-title-2">Features</h4>
+            <ul class="rbt-sidebar-list-wrapper features-list-check">
+                <li class="rbt-check-group">
+                    <input id="features-list-1" type="checkbox" name="features-list-1">
+                    <label for="features-list-1">SubTitle<span class="rbt-lable count">15</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="features-list-2" type="checkbox" name="features-list-2">
+                    <label for="features-list-2">Quizzes <span class="rbt-lable count">0</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="features-list-3" type="checkbox" name="features-list-3">
+                    <label for="features-list-3">Coding Skill <span class="rbt-lable count">10</span></label>
+                </li>
+                <li class="rbt-check-group">
+                    <input id="features-list-4" type="checkbox" name="features-list-4">
+                    <label for="features-list-4">Practice Test <span class="rbt-lable count">10</span></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Widget Area  -->

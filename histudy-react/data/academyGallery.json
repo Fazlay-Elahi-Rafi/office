@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "/images/about/about-14.jpg",
+    "title": "Arts & Humanities",
+    "description": "<strong>Histudy educational platform</strong><br/> ipsum dolor sit amet consectetur adipisicing elit.",
+    "features": [
+      "Art, Film",
+      "Visual Studies",
+      "Anthropology",
+      "Arts",
+      "Humanities",
+      "ARTS Is Better",
+      "Guide To ARTS",
+      "Selling ARTS",
+      "About ARTS",
+      "Your ARTS",
+      "Practices For ARTS",
+      "Old School ARTS"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/images/about/about-04.jpg",
+    "title": "Business Administration",
+    "description": "<strong>Histudy educational platform</strong> <br /> ipsum dolor sit amet consectetur adipisicing elit.",
+    "features": [
+      "Secrets Never Knew",
+      "Will Help You Get",
+      "Quickest & Easiest",
+      "Accounting",
+      "Marketing",
+      "ARTS Is Better",
+      "Business Communication",
+      "Ways To Improve",
+      "Administration",
+      "Man's Guide",
+      "Practices For ARTS",
+      "Old School ARTS"
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/images/about/about-13.jpg",
+    "title": "Massage Therapy",
+    "description": "<strong>Histudy educational platform</strong> <br /> ipsum dolor sit amet consectetur adipisicing elit.",
+    "features": [
+      "Asked Your Teachers",
+      "Visual Studies",
+      "Better Than Barack",
+      "Expert Interview",
+      "Humanities",
+      "Best Practices",
+      "Select the criteria",
+      "Decide",
+      "Tell your story",
+      "Assemble the evidence",
+      "Practices For Massage",
+      "Old School Massage"
+    ]
+  }
+]

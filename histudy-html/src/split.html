@@ -1,0 +1,33 @@
+@@include('styles.html',{
+    "title": "Split"
+})
+<body class="rbt-header-sticky">
+    @@include('header/package/header-style-10.html')
+    @@include('common/breadcrumb.html', {
+        "title": "Split",
+        "title2": "Split"
+    })
+
+    <div class="rbt-split-area bg-color-white rbt-section-gapTop overflow-hidden">
+        <div class="wrapper">
+            <div class="section-title text-center mb--60">
+                <span class="subtitle bg-secondary-opacity">University Status</span>
+                <h2 class="title">University Overview.</h2>
+            </div>
+            @@include('split/split-1.html')
+        </div>
+    </div>
+
+    <!-- Start Button Area  -->
+    <div class="rbt-video-area rbt-section-gap bg-color-white">
+        <div class="container">
+            @@include('split/split-2.html')
+        </div>
+    </div>
+    <!-- End Button Area  -->
+    
+    @@include('separator.html')
+    @@include('footer/footerOne.html')
+    @@include('scripts.html')
+</body>
+</html>

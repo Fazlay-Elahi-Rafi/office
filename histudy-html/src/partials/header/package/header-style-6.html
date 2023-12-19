@@ -1,0 +1,36 @@
+<!-- Start Header Area -->
+<header class="rbt-header rbt-header-6">
+
+    <div class="rbt-sticky-placeholder"></div>
+    @@include('header/headerTop/headerTop-6.html', {
+        "bgColor": "bg-color-white rbt-border-bottom",
+        "gapSpaceBetween": "header-space-betwween",
+        "container": "container-fluid",
+        "flexDirection": "",
+        "btnClass": "rbt-switch-btn btn-gradient btn-xs",
+        "btnText": "Call us now",
+    })
+
+    @@include('header/headerTop/headerMid-2.html', {
+        "logo": "logo-white.png",
+        "bgColor": "bg-color-darker rbt-border-bottom",
+        "gapSpaceBetween": "header-space-betwween",
+        "container": "container-fluid",
+        "flexDirection": "",
+    })
+    
+    @@include('header/header-3.html', {
+        "logo": "logo.png",
+        "transparent": "bg-color-white header-not-transparent header-sticky",
+        "gapSpaceBetween": "header-space-betwween",
+        "container": "container-fluid",
+        "navigationEnd": "rbt-navigation-center",
+        "btnClass": "rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none",
+        "btnText": "Enroll Now",
+    })
+</header>
+@@include('header/mobilemenu.html')
+<!-- End Header Top -->
+@@include('header/offcanvas/cart.html')
+
+

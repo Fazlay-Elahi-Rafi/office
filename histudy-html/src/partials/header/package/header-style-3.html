@@ -1,0 +1,29 @@
+<!-- Start Header Area -->
+<header class="rbt-header rbt-header-3">
+    <div class="rbt-sticky-placeholder"></div>
+    @@include('header/headerTop/headerTop-3.html', {
+        "bgColor": "bg-color-darker rbt-border-bottom",
+        "gapSpaceBetween": "header-space-betwween",
+        "container": "container-fluid",
+        "flexDirection": "",
+    })
+
+    @@include('header/headerTop/headerMid-1.html', {
+        "bgColor": "bg-color-white rbt-border-bottom",
+        "gapSpaceBetween": "header-space-betwween",
+        "container": "container-fluid",
+        "flexDirection": "",
+    })
+
+    @@include('header/header-10.html', {
+        "logo": "logo.png",
+        "sticky": "bg-color-white header-sticky",
+        "gapSpaceBetween": "header-space-betwween",
+        "container": "container-fluid",
+        "navigationEnd": "rbt-navigation-center",
+        "btnClass": "rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none",
+        "btnText": "Enroll Now",
+    })
+</header>
+@@include('header/mobilemenu.html')
+@@include('header/offcanvas/cart.html')

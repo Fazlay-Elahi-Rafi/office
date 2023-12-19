@@ -1,0 +1,25 @@
+{
+  "advanceTabOne": [
+    {
+      "tabButton": {
+        "title": "Market Research.",
+        "description": "Use Histudy template you can build a corporate website a short time."
+      },
+      "image": "/images/tab/tabs-03.jpg"
+    },
+    {
+      "tabButton": {
+        "title": "Corporate Report.",
+        "description": "Use Doob template you can build a corporate website a short time."
+      },
+      "image": "/images/tab/tabs-02.jpg"
+    },
+    {
+      "tabButton": {
+        "title": "App Development.",
+        "description": "Use Doob template you can build a corporate website a short time."
+      },
+      "image": "/images/tab/tabs-01.jpg"
+    }
+  ]
+}

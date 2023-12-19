@@ -1,0 +1,22 @@
+<header class="rbt-header rbt-header-1">
+    <div class="rbt-sticky-placeholder"></div>
+    @@include('header/headerTop/headerTop.html', {
+        "bgColor": "bg-color-darker rbt-border-bottom",
+        "gapSpaceBetween": "header-space-betwween",
+        "container": "container-fluid",
+        "flexDirection": "",
+    })
+    @@include('header/header.html', {
+        "logo": "logo.png",
+        "transparent": "bg-color-white header-not-transparent header-sticky",
+        "gapSpaceBetween": "header-space-betwween",
+        "container": "container-fluid",
+        "navigationEnd": "rbt-navigation-start",
+        "btnClass": "rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none",
+        "btnText": "Enroll Now",
+    })
+</header>
+
+@@include('header/mobilemenu.html')
+@@include('header/offcanvas/cart.html')
+
