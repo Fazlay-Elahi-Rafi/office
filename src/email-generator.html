@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('styles.html',{
+"title" : "Email Generator"
+})
+
+<body >
+    <main class="page-wrapper rbt-dashboard-page">
+        <div class="rbt-panel-wrapper">
+            @@include('dashboard/header-dashboard.html')
+
+            @@include('dashboard/leftpanel-dashboard.html')
+
+            <!-- Main content -->
+            <div class="rbt-main-content">
+                <div class="rbt-daynamic-page-content">
+
+                    <!-- Dashboard Center Content -->
+                    <div class="rbt-dashboard-content">
+                        <div class="content-page">
+
+                            <div class="chat-box-list pt--30" id="chatContainer">
+
+                                <!-- Text Generator -->
+                                <div class="chat-box author-speech bg-flashlight">
+                                    <div class="inner">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/team-01.jpg" alt="Author">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">You</h6>
+                                                <p>Write an email to your Office boss for 2 days off</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box ai-speech bg-flashlight">
+                                    <div class="inner top-flashlight leftside light-xl">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/avater.png" alt="ChatenAI">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">ChatenAI <span class="rainbow-badge-card">Bot</span></h6>
+                                                <p class="mb--20">Subject: Request for Two-Day Leave</p>
+                                                <p class="mb--20">Dear [Boss's Name],</p>
+                                                <p class="mb--20">I hope this email finds you well. I am writing to formally request a two-day leave from work on [start date] to [end date]. The reason for my request is [mention the reason briefly, such as personal commitments, family matters, or any other relevant reason].</p>
+                                                <p class="mb--20">I have ensured that all my current tasks and responsibilities are up to date, and I have briefed [colleague's name or team] about the status of my ongoing projects. I am committed to ensuring a smooth transition during my absence and will make myself available for any necessary handovers or additional information as needed.</p>
+                                                <p class="mb--20">I understand the importance of my role in the team and will do my best to minimize any disruption caused by my temporary absence. I am confident that my colleagues will be able to handle any urgent matters in my absence, and I will ensure that I am reachable in case of any critical issues that may arise.</p>
+                                                <p class="mb--20">Thank you for considering my request. I look forward to your approval and will be available to discuss any further details if necessary.</p>
+                                                <p class="mb--10">Best regards,</p>
+                                                <p class="mb--20">[Your Full Name]</p>
+                                                <div class="reaction-section">
+                                                    <div class="btn-grp">
+                                                        <div class="left-side-btn dropup">
+                                                            <button data-bs-toggle="modal" data-bs-target="#likeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-up"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#dislikeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-down"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#shareModal" class="react-btn btn-default btn-small btn-border"><i class="feather-share"></i></button>
+                                                            <button type="button" class="react-btn btn-default btn-small btn-border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="feather-more-vertical"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#"><i class="feather-copy"></i> Copy</a></li>
+                                                                <li><a class="dropdown-item" href="#"><i class="feather-tag"></i> Pin Chat</a></li>
+                                                                <li><a class="dropdown-item" href="#"><i class="feather-file-text"></i> Rename</a></li>
+                                                                <li><a class="dropdown-item delete-item" href="#"><i class="feather-trash-2"></i> Delete Chat</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="right-side-btn">
+                                                            <button class="react-btn btn-default btn-small btn-border">
+                                                                <i class="feather-repeat"></i><span>Regenerate</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box author-speech bg-flashlight">
+                                    <div class="inner">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/team-01.jpg" alt="Author">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">You</h6>
+                                                <p>Write an email to your Teacher for Study Tour</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box ai-speech bg-flashlight">
+                                    <div class="inner top-flashlight leftside light-xl">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/avater.png" alt="ChatenAI">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">ChatenAI <span class="rainbow-badge-card">Bot</span></h6>
+                                                <p class="mb--20">Subject: Request for Participation in Study Tour</p>
+                                                <p class="mb--20">Dear [Teacher's Name],</p>
+                                                <p class="mb--20">I trust this email finds you in good health. My name is [Your Name], and I am a student in your [Class/Subject] class. I am writing to express my interest in and request permission to participate in the upcoming study tour that you mentioned during our recent class.</p>
+                                                <p class="mb--20">I believe that the study tour would be a valuable opportunity for practical learning and exposure to real-world applications of the concepts we have been studying in class. The prospect of gaining firsthand experience in [mention specific areas or topics of the tour] is particularly exciting, and I am eager to enhance my understanding through this practical experience.</p>
+                                                <p class="mb--20">If there are specific forms or procedures I need to follow to formally apply for participation, please guide me accordingly. Additionally, I am willing to provide any necessary information or documentation to support my request.</p>
+                                                <p class="mb--20">Thank you for considering my request. I look forward to your guidance on the next steps and appreciate the opportunity to be part of this enriching educational experience.</p>
+                                                <p class="mb--10">Best regards,</p>
+                                                <p class="mb--20">[Your Full Name]</p>
+                                                <div class="reaction-section">
+                                                    <div class="btn-grp">
+                                                        <div class="left-side-btn dropup">
+                                                            <button data-bs-toggle="modal" data-bs-target="#likeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-up"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#dislikeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-down"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#shareModal" class="react-btn btn-default btn-small btn-border"><i class="feather-share"></i></button>
+                                                            <button type="button" class="react-btn btn-default btn-small btn-border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="feather-more-vertical"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a class="dropdown-item" href="#"><i class="feather-copy"></i> Copy</a></li>
+                                                                <li><a class="dropdown-item" href="#"><i class="feather-tag"></i> Pin Chat</a></li>
+                                                                <li><a class="dropdown-item" href="#"><i class="feather-file-text"></i> Rename</a></li>
+                                                                <li><a class="dropdown-item delete-item" href="#"><i class="feather-trash-2"></i> Delete Chat</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="right-side-btn">
+                                                            <button class="react-btn btn-default btn-small btn-border">
+                                                                <i class="feather-repeat"></i><span>Regenerate</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>   
+                        </div>
+                        @@include('dashboard/staticbar-dashboard.html')
+                    </div>
+
+                    @@include('dashboard/rightpanel-dashboard.html')
+
+                </div>
+            </div>
+        </div>
+
+    @@include('modals-box/dashboard-modals.html')
+
+    </main>
+    <!-- All Scripts  -->
+    @@include('scripts.html')
+    
+
+</body>
+
+</html>

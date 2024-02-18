@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('styles.html',{
+"title" : "Vedio Generator"
+})
+
+<body >
+    <main class="page-wrapper rbt-dashboard-page">
+        <div class="rbt-panel-wrapper">
+            @@include('dashboard/header-dashboard.html')
+
+            @@include('dashboard/leftpanel-dashboard.html')
+
+            <!-- Main content -->
+            <div class="rbt-main-content">
+                <div class="rbt-daynamic-page-content">
+
+                    <!-- Dashboard Center Content -->
+                    <div class="rbt-dashboard-content">
+                        <div class="content-page">
+                            <div class="chat-box-list pt--30" id="chatContainer">
+
+                                <!-- Vedio Generator -->
+                                <div class="chat-box author-speech bg-flashlight">
+                                    <div class="inner">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/team-01.jpg" alt="Author">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">You</h6>
+                                                <p class="mb--10"> Generate a conversational avatar for the provided script.</p>
+                                                <p class="mb--20">Create an engaging video now using our cutting-edge Talking Avatar Video Creator! This powerful tool lets you effortlessly craft captivating videos, featuring a virtual spokesperson delivering your personalized message with a natural touch. Whether you're marketing a product, sharing business updates, or conducting training sessions, our innovative AI technology simplifies the process, ensuring polished videos that captivate audiences and drive impactful results. Take command, try it out today, and witness the transformative difference firsthand.</p>
+                                                <div class="img-box">
+                                                    <img class="w-50 radius" src="assets/images/generator-img/photo-11.png" alt="Image Generation">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box ai-speech bg-flashlight">
+                                    <div class="inner top-flashlight leftside light-xl">
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <i class="feather-check-circle"></i>
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Scanning the data...</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <img src="assets/images/icons/loader-one.gif" alt="Loader Animated Icon">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Generating answers for you…</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-details-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/avater.png" alt="ChatenAI">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title mb--20">In alignment with the gender identified in the uploaded image, the video has been automatically generated with a male voice. Nevertheless, you retain the flexibility to tailor your video by choosing from the provided customization options below:</h6>
+                                                
+                                                <div class="image-caption mb--20">
+                                                    <h5 class="caption-title theme-gradient">Unleash the Power of Persuasion! 3:1 --q 4 --s 580</h5>
+                                                </div>
+                                                <div class="video-popup icon-center frame-image gradient-secondary frame-image-author mb--20">
+                                                    <img class="radius-small" src="assets/images/generator-img/video-photo-1.png" alt="Banner Images">
+                                                    <div class="video-icon">
+                                                        <a class="btn-default rounded-player popup-video border bg-white-dropshadow" href="https://www.youtube.com/watch?v=tj9-MGHCs38">
+                                                            <span><i class="feather-play"></i></span>
+                                                        </a>
+                                                    </div>
+                                                    <button class="download-btn btn-default btn-small bg-solid-primary">
+                                                        <i class="feather-download"></i><span>Download</span>
+                                                    </button>
+                                                </div>
+                                                <div class="reaction-section">
+                                                    <div class="btn-grp">
+                                                        <div class="left-side-btn dropup">
+                                                            <button data-bs-toggle="modal" data-bs-target="#likeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-up"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#dislikeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-down"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#shareModal" class="react-btn btn-default btn-small btn-border"><i class="feather-share"></i></button>
+                                                            <button type="button" class="react-btn btn-default btn-small btn-border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="feather-more-vertical"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-copy"></i> Copy</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-tag"></i> Pin Chat</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-file-text"></i> Rename</a></li>
+                                                              <li><a class="dropdown-item delete-item" href="#"><i class="feather-trash-2"></i> Delete Chat</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="right-side-btn">
+                                                            <button class="react-btn btn-default btn-small btn-border">
+                                                                <i class="feather-repeat"></i><span>Regenerate</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box author-speech bg-flashlight">
+                                    <div class="inner">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/team-01.jpg" alt="Author">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">You</h6>
+                                                <p class="mb--10"> Oh Nice! That's Awesome Video.</p>
+                                                <p class="mb--20">Create a Stunning Video Featuring Our Elegant Female Character. Here is the character's photo</p>
+                                                <div class="img-box">
+                                                    <img class="w-50 radius" src="assets/images/generator-img/photo-14.png" alt="Image Generation">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box ai-speech bg-flashlight">
+                                    <div class="inner top-flashlight leftside light-xl">
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <i class="feather-check-circle"></i>
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Scanning the data...</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <img src="assets/images/icons/loader-one.gif" alt="Loader Animated Icon">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Generating answers for you…</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-details-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/avater.png" alt="ChatenAI">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title mb--20">In alignment with the gender identified in the uploaded image, the video has been automatically generated with a male voice. Nevertheless, you retain the flexibility to tailor your video by choosing from the provided customization options below:</h6>
+                                                
+                                                <div class="image-caption mb--20">
+                                                    <h5 class="caption-title theme-gradient">Unleash The Power Of Persuasion! 3:1 --Q 4 --S 580</h5>
+                                                </div>
+                                                <div class="video-popup icon-center frame-image gradient-secondary frame-image-author mb--20">
+                                                    <img class="radius-small" src="assets/images/generator-img/video-photo-2.png" alt="Banner Images">
+                                                    <div class="video-icon">
+                                                        <a class="btn-default rounded-player popup-video border bg-white-dropshadow" href="https://www.youtube.com/watch?v=tj9-MGHCs38">
+                                                            <span><i class="feather-play"></i></span>
+                                                        </a>
+                                                    </div>
+                                                    <button class="download-btn btn-default btn-small bg-solid-primary">
+                                                        <i class="feather-download"></i><span>Download</span>
+                                                    </button>
+                                                </div>
+                                                <div class="reaction-section">
+                                                    <div class="btn-grp">
+                                                        <div class="left-side-btn dropup">
+                                                            <button data-bs-toggle="modal" data-bs-target="#likeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-up"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#dislikeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-down"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#shareModal" class="react-btn btn-default btn-small btn-border"><i class="feather-share"></i></button>
+                                                            <button type="button" class="react-btn btn-default btn-small btn-border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="feather-more-vertical"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-copy"></i> Copy</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-tag"></i> Pin Chat</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-file-text"></i> Rename</a></li>
+                                                              <li><a class="dropdown-item delete-item" href="#"><i class="feather-trash-2"></i> Delete Chat</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="right-side-btn">
+                                                            <button class="react-btn btn-default btn-small btn-border">
+                                                                <i class="feather-repeat"></i><span>Regenerate</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>   
+                        </div>
+                        @@include('dashboard/staticbar-dashboard.html')
+                    </div>
+
+                    @@include('dashboard/rightpanel-dashboard.html')
+
+                </div>
+            </div>
+        </div>
+
+    @@include('modals-box/dashboard-modals.html')
+
+    </main>
+    <!-- All Scripts  -->
+    @@include('scripts.html')
+    
+
+</body>
+
+</html>

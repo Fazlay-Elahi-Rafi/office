@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('styles.html',{
+"title" : "Image Generator"
+})
+
+<body >
+    <main class="page-wrapper rbt-dashboard-page">
+        <div class="rbt-panel-wrapper">
+            @@include('dashboard/header-dashboard.html')
+
+            @@include('dashboard/leftpanel-dashboard.html')
+
+            <!-- Main content -->
+            <div class="rbt-main-content">
+                <div class="rbt-daynamic-page-content">
+
+                    <!-- Dashboard Center Content -->
+                    <div class="rbt-dashboard-content">
+                        <div class="content-page">
+                            <div class="chat-box-list pt--30" id="chatContainer">
+
+                                <!-- Image Generator -->
+                                <div class="chat-box author-speech bg-flashlight">
+                                    <div class="inner">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/team-01.jpg" alt="Author">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">You</h6>
+                                                <p>Generate an Enchanting Female Character Soaring Through the Skies with Aesthetic Appeal</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box ai-speech bg-flashlight">
+                                    <div class="inner top-flashlight leftside light-xl">
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <i class="feather-check-circle"></i>
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Scanning the data...</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <img src="assets/images/icons/loader-one.gif" alt="Loader Images">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Generating answers for you…</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-details-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/avater.png" alt="ChatenAI">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title mb--20">Certainly! Your visual representation has been created using the provided prompt:</h6>
+                                                
+                                                <div class="image-caption mb--20">
+                                                    <h5 class="caption-title theme-gradient">Aesthetic --aspect-ratio 3:1 --quality 4 --size 580</h5>
+                                                </div>
+                                                <div class="img-box-grp mb--20">
+                                                    <div class="img-box">
+                                                        <img class="w-100 radius" src="assets/images/generator-img/photo-7.png" alt="Image Generation">
+                                                        <button class="download-btn btn-default btn-small bg-solid-primary">
+                                                            <i class="feather-download"></i><span>Download</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="img-box">
+                                                        <img class="w-100 radius" src="assets/images/generator-img/photo-13.png" alt="Image Generation">
+                                                        <button class="download-btn btn-default btn-small bg-solid-primary">
+                                                            <i class="feather-download"></i><span>Download</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="reaction-section">
+                                                    <div class="btn-grp">
+                                                        <div class="left-side-btn dropup">
+                                                            <button data-bs-toggle="modal" data-bs-target="#likeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-up"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#dislikeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-down"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#shareModal" class="react-btn btn-default btn-small btn-border"><i class="feather-share"></i></button>
+                                                            <button type="button" class="react-btn btn-default btn-small btn-border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="feather-more-vertical"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-copy"></i> Copy</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-tag"></i> Pin Chat</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-file-text"></i> Rename</a></li>
+                                                              <li><a class="dropdown-item delete-item" href="#"><i class="feather-trash-2"></i> Delete Chat</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="right-side-btn">
+                                                            <button class="react-btn btn-default btn-small btn-border">
+                                                                <i class="feather-repeat"></i><span>Regenerate</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="chat-box author-speech bg-flashlight">
+                                    <div class="inner">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/team-01.jpg" alt="Author">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">You</h6>
+                                                <p> Crafting Culinary Magic Enchanting Female Chef in Action</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box ai-speech bg-flashlight">
+                                    <div class="inner top-flashlight leftside light-xl">
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <i class="feather-check-circle"></i>
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Scanning the data...</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <img src="assets/images/icons/loader-one.gif" alt="Loader Images">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Generating answers for you…</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-details-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/avater.png" alt="ChatenAI">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title mb--20">Sure! Your image has been generated with the given prompt:</h6>
+                                                
+                                                <div class="image-caption mb--20">
+                                                    <h5 class="caption-title theme-gradient">Female Character --aspect-ratio 3:1 --quality 4 --size 580</h5>
+                                                </div>
+                                                <div class="img-box mb--20">
+                                                    <img class="w-100 radius" src="assets/images/generator-img/photo-8.png" alt="Image Generation">
+                                                    <button class="download-btn btn-default btn-small bg-solid-primary">
+                                                        <i class="feather-download"></i><span>Download</span>
+                                                    </button>
+                                                </div>
+                                                <div class="reaction-section">
+                                                    <div class="btn-grp">
+                                                        <div class="left-side-btn dropup">
+                                                            <button data-bs-toggle="modal" data-bs-target="#likeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-up"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#dislikeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-down"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#shareModal" class="react-btn btn-default btn-small btn-border"><i class="feather-share"></i></button>
+                                                            <button type="button" class="react-btn btn-default btn-small btn-border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="feather-more-vertical"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-copy"></i> Copy</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-tag"></i> Pin Chat</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-file-text"></i> Rename</a></li>
+                                                              <li><a class="dropdown-item delete-item" href="#"><i class="feather-trash-2"></i> Delete Chat</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="right-side-btn">
+                                                            <button class="react-btn btn-default btn-small btn-border">
+                                                                <i class="feather-repeat"></i><span>Regenerate</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="chat-box author-speech bg-flashlight">
+                                    <div class="inner">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/team-01.jpg" alt="Author">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">You</h6>
+                                                <p> Create Image: Oceana Reverie - An Ethereal Dreamweaver by the Sea</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box ai-speech bg-flashlight">
+                                    <div class="inner top-flashlight leftside light-xl">
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <i class="feather-check-circle"></i>
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Scanning the data...</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <img src="assets/images/icons/loader-one.gif" alt="Loader Images">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Generating answers for you…</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-details-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/avater.png" alt="ChatenAI">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title mb--20">Sure! Your image has been generated with the given prompt:</h6>
+                                                
+                                                <div class="image-caption mb--20">
+                                                    <h5 class="caption-title theme-gradient">An Ethereal Dreamweaver by the Sea 3:1 --q 4 --s 580</h5>
+                                                </div>
+                                                <div class="img-box mb--20">
+                                                    <img class="w-100 radius" src="assets/images/generator-img/photo-9.png" alt="Image Generation">
+                                                    <button class="download-btn btn-default btn-small bg-solid-primary">
+                                                        <i class="feather-download"></i><span>Download</span>
+                                                    </button>
+                                                </div>
+                                                <div class="reaction-section">
+                                                    <div class="btn-grp">
+                                                        <div class="left-side-btn dropup">
+                                                            <button data-bs-toggle="modal" data-bs-target="#likeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-up"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#dislikeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-down"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#shareModal" class="react-btn btn-default btn-small btn-border"><i class="feather-share"></i></button>
+                                                            <button type="button" class="react-btn btn-default btn-small btn-border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="feather-more-vertical"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-copy"></i> Copy</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-tag"></i> Pin Chat</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-file-text"></i> Rename</a></li>
+                                                              <li><a class="dropdown-item delete-item" href="#"><i class="feather-trash-2"></i> Delete Chat</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="right-side-btn">
+                                                            <button class="react-btn btn-default btn-small btn-border">
+                                                                <i class="feather-repeat"></i><span>Regenerate</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="chat-box author-speech bg-flashlight">
+                                    <div class="inner">
+                                        <div class="chat-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/team-01.jpg" alt="Author">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title">You</h6>
+                                                <p> Create Image, A Radiant Female Character in a Blooming Rose Garden</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-box ai-speech bg-flashlight">
+                                    <div class="inner top-flashlight leftside light-xl">
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <i class="feather-check-circle"></i>
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Scanning the data...</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-section">
+                                            <div class="author">
+                                                <img src="assets/images/icons/loader-one.gif" alt="Loader Images">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title color-text-off mb--0">Generating answers for you…</h6>
+                                            </div>
+                                        </div>
+                                        <div class="chat-section generate-details-section">
+                                            <div class="author">
+                                                <img class="w-100" src="assets/images/team/avater.png" alt="ChatenAI">
+                                            </div>
+                                            <div class="chat-content">
+                                                <h6 class="title mb--20">Sure! Your image has been generated with the given prompt:</h6>
+                                                
+                                                <div class="image-caption mb--20">
+                                                    <h5 class="caption-title theme-gradient">A Radiant Female Character in a Blooming Rose Garden --ar 3:1 --q 4 --s 580</h5>
+                                                </div>
+                                                <div class="img-box mb--20">
+                                                    <img class="w-100 radius" src="assets/images/generator-img/photo-10.png" alt="Image Generation">
+                                                    <button class="download-btn btn-default btn-small bg-solid-primary">
+                                                        <i class="feather-download"></i><span>Download</span>
+                                                    </button>
+                                                </div>
+                                                <div class="reaction-section">
+                                                    <div class="btn-grp">
+                                                        <div class="left-side-btn dropup">
+                                                            <button data-bs-toggle="modal" data-bs-target="#likeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-up"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#dislikeModal" class="react-btn btn-default btn-small btn-border"><i class="feather-thumbs-down"></i></button>
+                                                            <button data-bs-toggle="modal" data-bs-target="#shareModal" class="react-btn btn-default btn-small btn-border"><i class="feather-share"></i></button>
+                                                            <button type="button" class="react-btn btn-default btn-small btn-border dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <i class="feather-more-vertical"></i>
+                                                            </button>
+                                                            <ul class="dropdown-menu">
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-copy"></i> Copy</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-tag"></i> Pin Chat</a></li>
+                                                              <li><a class="dropdown-item" href="#"><i class="feather-file-text"></i> Rename</a></li>
+                                                              <li><a class="dropdown-item delete-item" href="#"><i class="feather-trash-2"></i> Delete Chat</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="right-side-btn">
+                                                            <button class="react-btn btn-default btn-small btn-border">
+                                                                <i class="feather-repeat"></i><span>Regenerate</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                        @@include('dashboard/staticbar-dashboard.html')
+                    </div>
+
+                    @@include('dashboard/rightpanel-dashboard.html')
+
+                </div>
+            </div>
+        </div>
+    @@include('modals-box/dashboard-modals.html')
+
+    </main>
+    <!-- All Scripts  -->
+    @@include('scripts.html')
+    
+
+</body>
+
+</html>
